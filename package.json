@@ -12,10 +12,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "yarn run format-code",
-      "git add"
-    ]
+    "*.js": ["yarn run format-code", "git add"]
   },
   "dependencies": {
     "react": "16.3.1",
